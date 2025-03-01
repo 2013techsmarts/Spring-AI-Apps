@@ -1,0 +1,10 @@
+spring:
+  application:
+   name : Travel-Planner AI Agent
+  ai:
+    openai:
+      api-key: ${SPRING_AI_OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+          temperature: 0.0
